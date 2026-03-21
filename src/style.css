@@ -97,7 +97,8 @@ body {
   width: 100%;
 }
 
-.category-btn:hover {
+.category-btn:hover,
+.category-btn.kb-focus {
   border-color: var(--color-primary);
   background: var(--color-primary-light);
 }
