@@ -1,5 +1,13 @@
-name: Example Quiz - General Knowledge
+name: Geo Quiz
 categories:
-  - name: General Knowledge
-    questions: general-knowledge/questions.yaml
+  - name: Flags
+    questions: flags/questions.yaml
     num_options: 4
+  - name: Capitals
+    questions: capitals/questions.yaml
+    num_options: 4
+  
+  # TODO: Add maps category
+  # - name: Maps
+  #   questions: maps/questions.yaml
+  #   num_options: 4

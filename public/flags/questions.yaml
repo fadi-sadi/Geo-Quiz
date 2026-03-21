@@ -1,0 +1,1079 @@
+- question: Which country's flag is this?
+  image: images/af.svg
+  answer: Afghanistan
+
+- question: Which country's flag is this?
+  image: images/ax.svg
+  answer: Aland Islands
+
+- question: Which country's flag is this?
+  image: images/al.svg
+  answer: Albania
+
+- question: Which country's flag is this?
+  image: images/dz.svg
+  answer: Algeria
+
+- question: Which country's flag is this?
+  image: images/as.svg
+  answer: American Samoa
+
+- question: Which country's flag is this?
+  image: images/ad.svg
+  answer: Andorra
+
+- question: Which country's flag is this?
+  image: images/ao.svg
+  answer: Angola
+
+- question: Which country's flag is this?
+  image: images/ai.svg
+  answer: Anguilla
+
+- question: Which country's flag is this?
+  image: images/aq.svg
+  answer: Antarctica
+
+- question: Which country's flag is this?
+  image: images/ag.svg
+  answer: Antigua and Barbuda
+
+- question: Which country's flag is this?
+  image: images/ar.svg
+  answer: Argentina
+
+- question: Which country's flag is this?
+  image: images/am.svg
+  answer: Armenia
+
+- question: Which country's flag is this?
+  image: images/aw.svg
+  answer: Aruba
+
+- question: Which country's flag is this?
+  image: images/sh-ac.svg
+  answer: Ascension Island
+
+- question: Which country's flag is this?
+  image: images/asean.svg
+  answer: Association of Southeast Asian Nations
+
+- question: Which country's flag is this?
+  image: images/au.svg
+  answer: Australia
+
+- question: Which country's flag is this?
+  image: images/at.svg
+  answer: Austria
+
+- question: Which country's flag is this?
+  image: images/az.svg
+  answer: Azerbaijan
+
+- question: Which country's flag is this?
+  image: images/bs.svg
+  answer: Bahamas
+
+- question: Which country's flag is this?
+  image: images/bh.svg
+  answer: Bahrain
+
+- question: Which country's flag is this?
+  image: images/bd.svg
+  answer: Bangladesh
+
+- question: Which country's flag is this?
+  image: images/bb.svg
+  answer: Barbados
+
+- question: Which country's flag is this?
+  image: images/es-pv.svg
+  answer: Basque Country
+
+- question: Which country's flag is this?
+  image: images/by.svg
+  answer: Belarus
+
+- question: Which country's flag is this?
+  image: images/be.svg
+  answer: Belgium
+
+- question: Which country's flag is this?
+  image: images/bz.svg
+  answer: Belize
+
+- question: Which country's flag is this?
+  image: images/bj.svg
+  answer: Benin
+
+- question: Which country's flag is this?
+  image: images/bm.svg
+  answer: Bermuda
+
+- question: Which country's flag is this?
+  image: images/bt.svg
+  answer: Bhutan
+
+- question: Which country's flag is this?
+  image: images/bo.svg
+  answer: Bolivia
+
+- question: Which country's flag is this?
+  image: images/bq.svg
+  answer: Bonaire, Sint Eustatius and Saba
+
+- question: Which country's flag is this?
+  image: images/ba.svg
+  answer: Bosnia and Herzegovina
+
+- question: Which country's flag is this?
+  image: images/bw.svg
+  answer: Botswana
+
+- question: Which country's flag is this?
+  image: images/bv.svg
+  answer: Bouvet Island
+
+- question: Which country's flag is this?
+  image: images/br.svg
+  answer: Brazil
+
+- question: Which country's flag is this?
+  image: images/io.svg
+  answer: British Indian Ocean Territory
+
+- question: Which country's flag is this?
+  image: images/bn.svg
+  answer: Brunei Darussalam
+
+- question: Which country's flag is this?
+  image: images/bg.svg
+  answer: Bulgaria
+
+- question: Which country's flag is this?
+  image: images/bf.svg
+  answer: Burkina Faso
+
+- question: Which country's flag is this?
+  image: images/bi.svg
+  answer: Burundi
+
+- question: Which country's flag is this?
+  image: images/cv.svg
+  answer: Cabo Verde
+
+- question: Which country's flag is this?
+  image: images/kh.svg
+  answer: Cambodia
+
+- question: Which country's flag is this?
+  image: images/cm.svg
+  answer: Cameroon
+
+- question: Which country's flag is this?
+  image: images/ca.svg
+  answer: Canada
+
+- question: Which country's flag is this?
+  image: images/ic.svg
+  answer: Canary Islands
+
+- question: Which country's flag is this?
+  image: images/es-ct.svg
+  answer: Catalonia
+
+- question: Which country's flag is this?
+  image: images/ky.svg
+  answer: Cayman Islands
+
+- question: Which country's flag is this?
+  image: images/cf.svg
+  answer: Central African Republic
+
+- question: Which country's flag is this?
+  image: images/cefta.svg
+  answer: Central European Free Trade Agreement
+
+- question: Which country's flag is this?
+  image: images/td.svg
+  answer: Chad
+
+- question: Which country's flag is this?
+  image: images/cl.svg
+  answer: Chile
+
+- question: Which country's flag is this?
+  image: images/cn.svg
+  answer: China
+
+- question: Which country's flag is this?
+  image: images/cx.svg
+  answer: Christmas Island
+
+- question: Which country's flag is this?
+  image: images/cp.svg
+  answer: Clipperton Island
+
+- question: Which country's flag is this?
+  image: images/cc.svg
+  answer: Cocos (Keeling) Islands
+
+- question: Which country's flag is this?
+  image: images/co.svg
+  answer: Colombia
+
+- question: Which country's flag is this?
+  image: images/km.svg
+  answer: Comoros
+
+- question: Which country's flag is this?
+  image: images/ck.svg
+  answer: Cook Islands
+
+- question: Which country's flag is this?
+  image: images/cr.svg
+  answer: Costa Rica
+
+- question: Which country's flag is this?
+  image: images/hr.svg
+  answer: Croatia
+
+- question: Which country's flag is this?
+  image: images/cu.svg
+  answer: Cuba
+
+- question: Which country's flag is this?
+  image: images/cw.svg
+  answer: Curaçao
+
+- question: Which country's flag is this?
+  image: images/cy.svg
+  answer: Cyprus
+
+- question: Which country's flag is this?
+  image: images/cz.svg
+  answer: Czech Republic
+
+- question: Which country's flag is this?
+  image: images/ci.svg
+  answer: Côte d'Ivoire
+
+- question: Which country's flag is this?
+  image: images/cd.svg
+  answer: Democratic Republic of the Congo
+
+- question: Which country's flag is this?
+  image: images/dk.svg
+  answer: Denmark
+
+- question: Which country's flag is this?
+  image: images/dg.svg
+  answer: Diego Garcia
+
+- question: Which country's flag is this?
+  image: images/dj.svg
+  answer: Djibouti
+
+- question: Which country's flag is this?
+  image: images/dm.svg
+  answer: Dominica
+
+- question: Which country's flag is this?
+  image: images/do.svg
+  answer: Dominican Republic
+
+- question: Which country's flag is this?
+  image: images/eac.svg
+  answer: East African Community
+
+- question: Which country's flag is this?
+  image: images/ec.svg
+  answer: Ecuador
+
+- question: Which country's flag is this?
+  image: images/eg.svg
+  answer: Egypt
+
+- question: Which country's flag is this?
+  image: images/sv.svg
+  answer: El Salvador
+
+- question: Which country's flag is this?
+  image: images/gb-eng.svg
+  answer: England
+
+- question: Which country's flag is this?
+  image: images/gq.svg
+  answer: Equatorial Guinea
+
+- question: Which country's flag is this?
+  image: images/er.svg
+  answer: Eritrea
+
+- question: Which country's flag is this?
+  image: images/ee.svg
+  answer: Estonia
+
+- question: Which country's flag is this?
+  image: images/sz.svg
+  answer: Eswatini
+
+- question: Which country's flag is this?
+  image: images/et.svg
+  answer: Ethiopia
+
+- question: Which country's flag is this?
+  image: images/eu.svg
+  answer: Europe
+
+- question: Which country's flag is this?
+  image: images/fk.svg
+  answer: Falkland Islands
+
+- question: Which country's flag is this?
+  image: images/fo.svg
+  answer: Faroe Islands
+
+- question: Which country's flag is this?
+  image: images/fm.svg
+  answer: Federated States of Micronesia
+
+- question: Which country's flag is this?
+  image: images/fj.svg
+  answer: Fiji
+
+- question: Which country's flag is this?
+  image: images/fi.svg
+  answer: Finland
+
+- question: Which country's flag is this?
+  image: images/fr.svg
+  answer: France
+
+- question: Which country's flag is this?
+  image: images/gf.svg
+  answer: French Guiana
+
+- question: Which country's flag is this?
+  image: images/pf.svg
+  answer: French Polynesia
+
+- question: Which country's flag is this?
+  image: images/tf.svg
+  answer: French Southern Territories
+
+- question: Which country's flag is this?
+  image: images/ga.svg
+  answer: Gabon
+
+- question: Which country's flag is this?
+  image: images/es-ga.svg
+  answer: Galicia
+
+- question: Which country's flag is this?
+  image: images/gm.svg
+  answer: Gambia
+
+- question: Which country's flag is this?
+  image: images/ge.svg
+  answer: Georgia
+
+- question: Which country's flag is this?
+  image: images/de.svg
+  answer: Germany
+
+- question: Which country's flag is this?
+  image: images/gh.svg
+  answer: Ghana
+
+- question: Which country's flag is this?
+  image: images/gi.svg
+  answer: Gibraltar
+
+- question: Which country's flag is this?
+  image: images/gr.svg
+  answer: Greece
+
+- question: Which country's flag is this?
+  image: images/gl.svg
+  answer: Greenland
+
+- question: Which country's flag is this?
+  image: images/gd.svg
+  answer: Grenada
+
+- question: Which country's flag is this?
+  image: images/gp.svg
+  answer: Guadeloupe
+
+- question: Which country's flag is this?
+  image: images/gu.svg
+  answer: Guam
+
+- question: Which country's flag is this?
+  image: images/gt.svg
+  answer: Guatemala
+
+- question: Which country's flag is this?
+  image: images/gg.svg
+  answer: Guernsey
+
+- question: Which country's flag is this?
+  image: images/gn.svg
+  answer: Guinea
+
+- question: Which country's flag is this?
+  image: images/gw.svg
+  answer: Guinea-Bissau
+
+- question: Which country's flag is this?
+  image: images/gy.svg
+  answer: Guyana
+
+- question: Which country's flag is this?
+  image: images/ht.svg
+  answer: Haiti
+
+- question: Which country's flag is this?
+  image: images/hm.svg
+  answer: Heard Island and McDonald Islands
+
+- question: Which country's flag is this?
+  image: images/va.svg
+  answer: Holy See
+
+- question: Which country's flag is this?
+  image: images/hn.svg
+  answer: Honduras
+
+- question: Which country's flag is this?
+  image: images/hk.svg
+  answer: Hong Kong
+
+- question: Which country's flag is this?
+  image: images/hu.svg
+  answer: Hungary
+
+- question: Which country's flag is this?
+  image: images/is.svg
+  answer: Iceland
+
+- question: Which country's flag is this?
+  image: images/in.svg
+  answer: India
+
+- question: Which country's flag is this?
+  image: images/id.svg
+  answer: Indonesia
+
+- question: Which country's flag is this?
+  image: images/ir.svg
+  answer: Iran
+
+- question: Which country's flag is this?
+  image: images/iq.svg
+  answer: Iraq
+
+- question: Which country's flag is this?
+  image: images/ie.svg
+  answer: Ireland
+
+- question: Which country's flag is this?
+  image: images/im.svg
+  answer: Isle of Man
+
+- question: Which country's flag is this?
+  image: images/il.svg
+  answer: Israel
+
+- question: Which country's flag is this?
+  image: images/it.svg
+  answer: Italy
+
+- question: Which country's flag is this?
+  image: images/jm.svg
+  answer: Jamaica
+
+- question: Which country's flag is this?
+  image: images/jp.svg
+  answer: Japan
+
+- question: Which country's flag is this?
+  image: images/je.svg
+  answer: Jersey
+
+- question: Which country's flag is this?
+  image: images/jo.svg
+  answer: Jordan
+
+- question: Which country's flag is this?
+  image: images/kz.svg
+  answer: Kazakhstan
+
+- question: Which country's flag is this?
+  image: images/ke.svg
+  answer: Kenya
+
+- question: Which country's flag is this?
+  image: images/ki.svg
+  answer: Kiribati
+
+- question: Which country's flag is this?
+  image: images/xk.svg
+  answer: Kosovo
+
+- question: Which country's flag is this?
+  image: images/kw.svg
+  answer: Kuwait
+
+- question: Which country's flag is this?
+  image: images/kg.svg
+  answer: Kyrgyzstan
+
+- question: Which country's flag is this?
+  image: images/la.svg
+  answer: Laos
+
+- question: Which country's flag is this?
+  image: images/lv.svg
+  answer: Latvia
+
+- question: Which country's flag is this?
+  image: images/arab.svg
+  answer: League of Arab States
+
+- question: Which country's flag is this?
+  image: images/lb.svg
+  answer: Lebanon
+
+- question: Which country's flag is this?
+  image: images/ls.svg
+  answer: Lesotho
+
+- question: Which country's flag is this?
+  image: images/lr.svg
+  answer: Liberia
+
+- question: Which country's flag is this?
+  image: images/ly.svg
+  answer: Libya
+
+- question: Which country's flag is this?
+  image: images/li.svg
+  answer: Liechtenstein
+
+- question: Which country's flag is this?
+  image: images/lt.svg
+  answer: Lithuania
+
+- question: Which country's flag is this?
+  image: images/lu.svg
+  answer: Luxembourg
+
+- question: Which country's flag is this?
+  image: images/mo.svg
+  answer: Macau
+
+- question: Which country's flag is this?
+  image: images/mg.svg
+  answer: Madagascar
+
+- question: Which country's flag is this?
+  image: images/mw.svg
+  answer: Malawi
+
+- question: Which country's flag is this?
+  image: images/my.svg
+  answer: Malaysia
+
+- question: Which country's flag is this?
+  image: images/mv.svg
+  answer: Maldives
+
+- question: Which country's flag is this?
+  image: images/ml.svg
+  answer: Mali
+
+- question: Which country's flag is this?
+  image: images/mt.svg
+  answer: Malta
+
+- question: Which country's flag is this?
+  image: images/mh.svg
+  answer: Marshall Islands
+
+- question: Which country's flag is this?
+  image: images/mq.svg
+  answer: Martinique
+
+- question: Which country's flag is this?
+  image: images/mr.svg
+  answer: Mauritania
+
+- question: Which country's flag is this?
+  image: images/mu.svg
+  answer: Mauritius
+
+- question: Which country's flag is this?
+  image: images/yt.svg
+  answer: Mayotte
+
+- question: Which country's flag is this?
+  image: images/mx.svg
+  answer: Mexico
+
+- question: Which country's flag is this?
+  image: images/md.svg
+  answer: Moldova
+
+- question: Which country's flag is this?
+  image: images/mc.svg
+  answer: Monaco
+
+- question: Which country's flag is this?
+  image: images/mn.svg
+  answer: Mongolia
+
+- question: Which country's flag is this?
+  image: images/me.svg
+  answer: Montenegro
+
+- question: Which country's flag is this?
+  image: images/ms.svg
+  answer: Montserrat
+
+- question: Which country's flag is this?
+  image: images/ma.svg
+  answer: Morocco
+
+- question: Which country's flag is this?
+  image: images/mz.svg
+  answer: Mozambique
+
+- question: Which country's flag is this?
+  image: images/mm.svg
+  answer: Myanmar
+
+- question: Which country's flag is this?
+  image: images/na.svg
+  answer: Namibia
+
+- question: Which country's flag is this?
+  image: images/nr.svg
+  answer: Nauru
+
+- question: Which country's flag is this?
+  image: images/np.svg
+  answer: Nepal
+
+- question: Which country's flag is this?
+  image: images/nl.svg
+  answer: Netherlands
+
+- question: Which country's flag is this?
+  image: images/nc.svg
+  answer: New Caledonia
+
+- question: Which country's flag is this?
+  image: images/nz.svg
+  answer: New Zealand
+
+- question: Which country's flag is this?
+  image: images/ni.svg
+  answer: Nicaragua
+
+- question: Which country's flag is this?
+  image: images/ne.svg
+  answer: Niger
+
+- question: Which country's flag is this?
+  image: images/ng.svg
+  answer: Nigeria
+
+- question: Which country's flag is this?
+  image: images/nu.svg
+  answer: Niue
+
+- question: Which country's flag is this?
+  image: images/nf.svg
+  answer: Norfolk Island
+
+- question: Which country's flag is this?
+  image: images/kp.svg
+  answer: North Korea
+
+- question: Which country's flag is this?
+  image: images/mk.svg
+  answer: North Macedonia
+
+- question: Which country's flag is this?
+  image: images/gb-nir.svg
+  answer: Northern Ireland
+
+- question: Which country's flag is this?
+  image: images/mp.svg
+  answer: Northern Mariana Islands
+
+- question: Which country's flag is this?
+  image: images/no.svg
+  answer: Norway
+
+- question: Which country's flag is this?
+  image: images/om.svg
+  answer: Oman
+
+- question: Which country's flag is this?
+  image: images/pc.svg
+  answer: Pacific Community
+
+- question: Which country's flag is this?
+  image: images/pk.svg
+  answer: Pakistan
+
+- question: Which country's flag is this?
+  image: images/pw.svg
+  answer: Palau
+
+- question: Which country's flag is this?
+  image: images/pa.svg
+  answer: Panama
+
+- question: Which country's flag is this?
+  image: images/pg.svg
+  answer: Papua New Guinea
+
+- question: Which country's flag is this?
+  image: images/py.svg
+  answer: Paraguay
+
+- question: Which country's flag is this?
+  image: images/pe.svg
+  answer: Peru
+
+- question: Which country's flag is this?
+  image: images/ph.svg
+  answer: Philippines
+
+- question: Which country's flag is this?
+  image: images/pn.svg
+  answer: Pitcairn
+
+- question: Which country's flag is this?
+  image: images/pl.svg
+  answer: Poland
+
+- question: Which country's flag is this?
+  image: images/pt.svg
+  answer: Portugal
+
+- question: Which country's flag is this?
+  image: images/pr.svg
+  answer: Puerto Rico
+
+- question: Which country's flag is this?
+  image: images/qa.svg
+  answer: Qatar
+
+- question: Which country's flag is this?
+  image: images/cg.svg
+  answer: Republic of the Congo
+
+- question: Which country's flag is this?
+  image: images/ro.svg
+  answer: Romania
+
+- question: Which country's flag is this?
+  image: images/ru.svg
+  answer: Russia
+
+- question: Which country's flag is this?
+  image: images/rw.svg
+  answer: Rwanda
+
+- question: Which country's flag is this?
+  image: images/re.svg
+  answer: Réunion
+
+- question: Which country's flag is this?
+  image: images/bl.svg
+  answer: Saint Barthélemy
+
+- question: Which country's flag is this?
+  image: images/sh-hl.svg
+  answer: Saint Helena
+
+- question: Which country's flag is this?
+  image: images/sh.svg
+  answer: Saint Helena, Ascension and Tristan da Cunha
+
+- question: Which country's flag is this?
+  image: images/kn.svg
+  answer: Saint Kitts and Nevis
+
+- question: Which country's flag is this?
+  image: images/lc.svg
+  answer: Saint Lucia
+
+- question: Which country's flag is this?
+  image: images/mf.svg
+  answer: Saint Martin
+
+- question: Which country's flag is this?
+  image: images/pm.svg
+  answer: Saint Pierre and Miquelon
+
+- question: Which country's flag is this?
+  image: images/vc.svg
+  answer: Saint Vincent and the Grenadines
+
+- question: Which country's flag is this?
+  image: images/ws.svg
+  answer: Samoa
+
+- question: Which country's flag is this?
+  image: images/sm.svg
+  answer: San Marino
+
+- question: Which country's flag is this?
+  image: images/st.svg
+  answer: Sao Tome and Principe
+
+- question: Which country's flag is this?
+  image: images/sa.svg
+  answer: Saudi Arabia
+
+- question: Which country's flag is this?
+  image: images/gb-sct.svg
+  answer: Scotland
+
+- question: Which country's flag is this?
+  image: images/sn.svg
+  answer: Senegal
+
+- question: Which country's flag is this?
+  image: images/rs.svg
+  answer: Serbia
+
+- question: Which country's flag is this?
+  image: images/sc.svg
+  answer: Seychelles
+
+- question: Which country's flag is this?
+  image: images/sl.svg
+  answer: Sierra Leone
+
+- question: Which country's flag is this?
+  image: images/sg.svg
+  answer: Singapore
+
+- question: Which country's flag is this?
+  image: images/sx.svg
+  answer: Sint Maarten
+
+- question: Which country's flag is this?
+  image: images/sk.svg
+  answer: Slovakia
+
+- question: Which country's flag is this?
+  image: images/si.svg
+  answer: Slovenia
+
+- question: Which country's flag is this?
+  image: images/sb.svg
+  answer: Solomon Islands
+
+- question: Which country's flag is this?
+  image: images/so.svg
+  answer: Somalia
+
+- question: Which country's flag is this?
+  image: images/za.svg
+  answer: South Africa
+
+- question: Which country's flag is this?
+  image: images/gs.svg
+  answer: South Georgia and the South Sandwich Islands
+
+- question: Which country's flag is this?
+  image: images/kr.svg
+  answer: South Korea
+
+- question: Which country's flag is this?
+  image: images/ss.svg
+  answer: South Sudan
+
+- question: Which country's flag is this?
+  image: images/es.svg
+  answer: Spain
+
+- question: Which country's flag is this?
+  image: images/lk.svg
+  answer: Sri Lanka
+
+- question: Which country's flag is this?
+  image: images/ps.svg
+  answer: State of Palestine
+
+- question: Which country's flag is this?
+  image: images/sd.svg
+  answer: Sudan
+
+- question: Which country's flag is this?
+  image: images/sr.svg
+  answer: Suriname
+
+- question: Which country's flag is this?
+  image: images/sj.svg
+  answer: Svalbard and Jan Mayen
+
+- question: Which country's flag is this?
+  image: images/se.svg
+  answer: Sweden
+
+- question: Which country's flag is this?
+  image: images/ch.svg
+  answer: Switzerland
+
+- question: Which country's flag is this?
+  image: images/sy.svg
+  answer: Syria
+
+- question: Which country's flag is this?
+  image: images/tw.svg
+  answer: Taiwan
+
+- question: Which country's flag is this?
+  image: images/tj.svg
+  answer: Tajikistan
+
+- question: Which country's flag is this?
+  image: images/tz.svg
+  answer: Tanzania
+
+- question: Which country's flag is this?
+  image: images/th.svg
+  answer: Thailand
+
+- question: Which country's flag is this?
+  image: images/tl.svg
+  answer: Timor-Leste
+
+- question: Which country's flag is this?
+  image: images/tg.svg
+  answer: Togo
+
+- question: Which country's flag is this?
+  image: images/tk.svg
+  answer: Tokelau
+
+- question: Which country's flag is this?
+  image: images/to.svg
+  answer: Tonga
+
+- question: Which country's flag is this?
+  image: images/tt.svg
+  answer: Trinidad and Tobago
+
+- question: Which country's flag is this?
+  image: images/sh-ta.svg
+  answer: Tristan da Cunha
+
+- question: Which country's flag is this?
+  image: images/tn.svg
+  answer: Tunisia
+
+- question: Which country's flag is this?
+  image: images/tm.svg
+  answer: Turkmenistan
+
+- question: Which country's flag is this?
+  image: images/tc.svg
+  answer: Turks and Caicos Islands
+
+- question: Which country's flag is this?
+  image: images/tv.svg
+  answer: Tuvalu
+
+- question: Which country's flag is this?
+  image: images/tr.svg
+  answer: Türkiye
+
+- question: Which country's flag is this?
+  image: images/ug.svg
+  answer: Uganda
+
+- question: Which country's flag is this?
+  image: images/ua.svg
+  answer: Ukraine
+
+- question: Which country's flag is this?
+  image: images/ae.svg
+  answer: United Arab Emirates
+
+- question: Which country's flag is this?
+  image: images/gb.svg
+  answer: United Kingdom
+
+- question: Which country's flag is this?
+  image: images/un.svg
+  answer: United Nations
+
+- question: Which country's flag is this?
+  image: images/um.svg
+  answer: United States Minor Outlying Islands
+
+- question: Which country's flag is this?
+  image: images/us.svg
+  answer: United States of America
+
+- question: Which country's flag is this?
+  image: images/uy.svg
+  answer: Uruguay
+
+- question: Which country's flag is this?
+  image: images/uz.svg
+  answer: Uzbekistan
+
+- question: Which country's flag is this?
+  image: images/vu.svg
+  answer: Vanuatu
+
+- question: Which country's flag is this?
+  image: images/ve.svg
+  answer: Venezuela
+
+- question: Which country's flag is this?
+  image: images/vn.svg
+  answer: Vietnam
+
+- question: Which country's flag is this?
+  image: images/vg.svg
+  answer: Virgin Islands (British)
+
+- question: Which country's flag is this?
+  image: images/vi.svg
+  answer: Virgin Islands (U.S.)
+
+- question: Which country's flag is this?
+  image: images/gb-wls.svg
+  answer: Wales
+
+- question: Which country's flag is this?
+  image: images/wf.svg
+  answer: Wallis and Futuna
+
+- question: Which country's flag is this?
+  image: images/eh.svg
+  answer: Western Sahara
+
+- question: Which country's flag is this?
+  image: images/ye.svg
+  answer: Yemen
+
+- question: Which country's flag is this?
+  image: images/zm.svg
+  answer: Zambia
+
+- question: Which country's flag is this?
+  image: images/zw.svg
+  answer: Zimbabwe
