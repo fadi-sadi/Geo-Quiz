@@ -118,9 +118,10 @@
   image: images/bo.svg
   answer: Bolivia
 
-- question: Which country's flag is this?
-  image: images/bq.svg
-  answer: Bonaire, Sint Eustatius and Saba
+# NOTE: same as the Dutch flag
+# - question: Which country's flag is this?
+#   image: images/bq.svg
+#   answer: Bonaire, Sint Eustatius and Saba
 
 - question: Which country's flag is this?
   image: images/ba.svg
@@ -130,9 +131,10 @@
   image: images/bw.svg
   answer: Botswana
 
-- question: Which country's flag is this?
-  image: images/bv.svg
-  answer: Bouvet Island
+# NOTE: same as the Norwegian flag
+# - question: Which country's flag is this?
+#   image: images/bv.svg
+#   answer: Bouvet Island
 
 - question: Which country's flag is this?
   image: images/br.svg
@@ -210,9 +212,10 @@
   image: images/cx.svg
   answer: Christmas Island
 
-- question: Which country's flag is this?
-  image: images/cp.svg
-  answer: Clipperton Island
+# NOTE: same as the French flag
+# - question: Which country's flag is this?
+#   image: images/cp.svg
+#   answer: Clipperton Island
 
 - question: Which country's flag is this?
   image: images/cc.svg
@@ -350,9 +353,10 @@
   image: images/fr.svg
   answer: France
 
-- question: Which country's flag is this?
-  image: images/gf.svg
-  answer: French Guiana
+# NOTE: same as the French flag
+# - question: Which country's flag is this?
+#   image: images/gf.svg
+#   answer: French Guiana
 
 - question: Which country's flag is this?
   image: images/pf.svg
@@ -402,9 +406,10 @@
   image: images/gd.svg
   answer: Grenada
 
-- question: Which country's flag is this?
-  image: images/gp.svg
-  answer: Guadeloupe
+# NOTE: same as the French flag
+# - question: Which country's flag is this?
+#   image: images/gp.svg
+#   answer: Guadeloupe
 
 - question: Which country's flag is this?
   image: images/gu.svg
@@ -614,9 +619,10 @@
   image: images/mu.svg
   answer: Mauritius
 
-- question: Which country's flag is this?
-  image: images/yt.svg
-  answer: Mayotte
+# NOTE: same as the French flag
+# - question: Which country's flag is this?
+#   image: images/yt.svg
+#   answer: Mayotte
 
 - question: Which country's flag is this?
   image: images/mx.svg
@@ -790,21 +796,24 @@
   image: images/rw.svg
   answer: Rwanda
 
-- question: Which country's flag is this?
-  image: images/re.svg
-  answer: Réunion
+# NOTE: same as the French flag
+# - question: Which country's flag is this?
+#   image: images/re.svg
+#   answer: Réunion
 
-- question: Which country's flag is this?
-  image: images/bl.svg
-  answer: Saint Barthélemy
+# NOTE: same as the French flag
+# - question: Which country's flag is this?
+#   image: images/bl.svg
+#   answer: Saint Barthélemy
 
 - question: Which country's flag is this?
   image: images/sh-hl.svg
   answer: Saint Helena
 
-- question: Which country's flag is this?
-  image: images/sh.svg
-  answer: Saint Helena, Ascension and Tristan da Cunha
+# NOTE: same as the British flag
+# - question: Which country's flag is this?
+#   image: images/sh.svg
+#   answer: Saint Helena, Ascension and Tristan da Cunha
 
 - question: Which country's flag is this?
   image: images/kn.svg
@@ -814,13 +823,15 @@
   image: images/lc.svg
   answer: Saint Lucia
 
-- question: Which country's flag is this?
-  image: images/mf.svg
-  answer: Saint Martin
+# NOTE: same as the French flag
+# - question: Which country's flag is this?
+#   image: images/mf.svg
+#   answer: Saint Martin
 
-- question: Which country's flag is this?
-  image: images/pm.svg
-  answer: Saint Pierre and Miquelon
+# NOTE: same as the French flag
+# - question: Which country's flag is this?
+#   image: images/pm.svg
+#   answer: Saint Pierre and Miquelon, Saint Barthélemy and Saint Martin
 
 - question: Which country's flag is this?
   image: images/vc.svg
@@ -922,9 +933,10 @@
   image: images/sr.svg
   answer: Suriname
 
-- question: Which country's flag is this?
-  image: images/sj.svg
-  answer: Svalbard and Jan Mayen
+# NOTE: same as the Norwegian flag
+# - question: Which country's flag is this?
+#   image: images/sj.svg
+#   answer: Svalbard and Jan Mayen
 
 - question: Which country's flag is this?
   image: images/se.svg
@@ -1018,9 +1030,10 @@
   image: images/un.svg
   answer: United Nations
 
-- question: Which country's flag is this?
-  image: images/um.svg
-  answer: United States Minor Outlying Islands
+# NOTE: same as the United States flag
+# - question: Which country's flag is this?
+#   image: images/um.svg
+#   answer: United States Minor Outlying Islands
 
 - question: Which country's flag is this?
   image: images/us.svg
@@ -1058,9 +1071,10 @@
   image: images/gb-wls.svg
   answer: Wales
 
-- question: Which country's flag is this?
-  image: images/wf.svg
-  answer: Wallis and Futuna
+# Same as the French flag
+# - question: Which country's flag is this?
+#   image: images/wf.svg
+#   answer: Wallis and Futuna
 
 - question: Which country's flag is this?
   image: images/eh.svg

@@ -715,8 +715,9 @@
 - question: What is the capital of United Kingdom?
   answer: London
 
-- question: What is the capital of United States Minor Outlying Islands?
-  answer: Washington, D.C.
+# NOTE: under United States of America
+# - question: What is the capital of United States Minor Outlying Islands?
+#   answer: Washington, D.C.
 
 - question: What is the capital of United States of America?
   answer: Washington, D.C.
