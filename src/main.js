@@ -58,6 +58,8 @@ let currentIndex = 0;
 let score = 0;
 let answered = false;
 let selectedOptionIndex = -1;
+let timerStart = 0;
+let timerInterval = null;
 
 /** @type {Array<{name: string, questions: string, metadata?: string}> | null} */
 let categories = null;
@@ -155,6 +157,32 @@ function showStartScreen() {
   showScreen('start');
 }
 
+// ── Timer ─────────────────────────────────────────────────────────────────────
+
+function formatElapsed(ms) {
+  const totalSeconds = Math.floor(ms / 1000);
+  const minutes = Math.floor(totalSeconds / 60);
+  const seconds = totalSeconds % 60;
+  return `${minutes}:${String(seconds).padStart(2, '0')}`;
+}
+
+function startTimer() {
+  stopTimer();
+  timerStart = Date.now();
+  const timerEl = document.getElementById('timer-text');
+  timerEl.textContent = '0:00';
+  timerInterval = setInterval(() => {
+    timerEl.textContent = formatElapsed(Date.now() - timerStart);
+  }, 1000);
+}
+
+function stopTimer() {
+  if (timerInterval) {
+    clearInterval(timerInterval);
+    timerInterval = null;
+  }
+}
+
 // ── Quiz flow ────────────────────────────────────────────────────────────────
 
 function startQuiz() {
@@ -169,6 +197,7 @@ function startQuiz() {
   currentIndex = 0;
   score = 0;
   showScreen('quiz');
+  startTimer();
   renderQuestion();
 }
 
@@ -268,10 +297,14 @@ function updateOptionHighlight() {
 }
 
 function showResult() {
+  stopTimer();
+  const elapsed = Date.now() - timerStart;
+
   const total = preparedQuestions.length;
   const pct = Math.round((score / total) * 100);
 
   document.getElementById('final-score').textContent = `${score} / ${total}`;
+  document.getElementById('final-time').textContent = `Time: ${formatElapsed(elapsed)}`;
 
   let msg;
   if (pct === 100) msg = 'Perfect score! Outstanding!';
@@ -319,6 +352,12 @@ document.addEventListener('keydown', (e) => {
   if (e.key === ' ' && !screens.start.classList.contains('hidden')) {
     e.preventDefault();
     document.getElementById('start-btn').click();
+    return;
+  }
+
+  if (e.key === ' ' && !screens.result.classList.contains('hidden')) {
+    e.preventDefault();
+    document.getElementById('restart-btn').click();
     return;
   }
 
