@@ -58,6 +58,7 @@ let currentIndex = 0;
 let score = 0;
 let answered = false;
 let selectedOptionIndex = -1;
+let selectedCategoryIndex = 0;
 let timerStart = 0;
 let timerInterval = null;
 
@@ -122,7 +123,16 @@ function showCategoryScreen() {
     grid.appendChild(btn);
   });
 
+  selectedCategoryIndex = 0;
   showScreen('category');
+  updateCategoryHighlight();
+}
+
+function updateCategoryHighlight() {
+  const btns = document.getElementById('categories-grid').querySelectorAll('.category-btn');
+  btns.forEach((btn, i) => {
+    btn.classList.toggle('kb-focus', i === selectedCategoryIndex);
+  });
 }
 
 async function handleCategorySelect(category) {
@@ -348,16 +358,44 @@ limitInput.addEventListener('change', () => {
   else if (val > max) limitInput.value = max;
 });
 
+function isActivateKey(key) {
+  return key === ' ' || key === 'Enter';
+}
+
 document.addEventListener('keydown', (e) => {
-  if (e.key === ' ' && !screens.start.classList.contains('hidden')) {
+  if (isActivateKey(e.key) && !screens.start.classList.contains('hidden')) {
     e.preventDefault();
     document.getElementById('start-btn').click();
     return;
   }
 
-  if (e.key === ' ' && !screens.result.classList.contains('hidden')) {
+  if (isActivateKey(e.key) && !screens.result.classList.contains('hidden')) {
     e.preventDefault();
     document.getElementById('restart-btn').click();
+    return;
+  }
+
+  if (!screens.category.classList.contains('hidden')) {
+    const catBtns = document.getElementById('categories-grid').querySelectorAll('.category-btn');
+    const catCount = catBtns.length;
+    if (!catCount) return;
+
+    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+      e.preventDefault();
+      if (e.key === 'ArrowDown') {
+        selectedCategoryIndex = (selectedCategoryIndex + 1) % catCount;
+      } else {
+        selectedCategoryIndex = (selectedCategoryIndex - 1 + catCount) % catCount;
+      }
+      updateCategoryHighlight();
+    }
+
+    if (isActivateKey(e.key)) {
+      e.preventDefault();
+      if (selectedCategoryIndex >= 0 && selectedCategoryIndex < catCount) {
+        catBtns[selectedCategoryIndex].click();
+      }
+    }
     return;
   }
 
@@ -378,7 +416,7 @@ document.addEventListener('keydown', (e) => {
     updateOptionHighlight();
   }
 
-  if (e.key === ' ') {
+  if (isActivateKey(e.key)) {
     e.preventDefault();
     const nextBtn = document.getElementById('next-btn');
     if (answered && !nextBtn.classList.contains('hidden')) {
