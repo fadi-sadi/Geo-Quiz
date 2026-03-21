@@ -27,6 +27,7 @@
 - question: What is the chemical symbol for gold?
   answer: Au
   hint: From the Latin word "aurum"
+  explanation: Au comes from the Latin word "aurum", meaning "shining dawn".
   options:
     - Au
     - Ag
@@ -60,6 +61,7 @@
 
 - question: Approximately how fast does light travel?
   answer: 300,000 km/s
+  explanation: Light travels at approximately 299,792 km/s in a vacuum, commonly rounded to 300,000 km/s.
   options:
     - 300,000 km/s
     - 150,000 km/s
@@ -69,6 +71,7 @@
 - question: What is the smallest country in the world?
   answer: Vatican City
   hint: It is an enclave within Rome, Italy
+  explanation: Vatican City covers just 0.44 km², making it the smallest internationally recognized independent state.
   options:
     - Vatican City
     - Monaco

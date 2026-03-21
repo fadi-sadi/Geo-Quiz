@@ -4,7 +4,7 @@ import jsyaml from 'js-yaml';
  * Parse and validate a questions YAML string.
  *
  * @param {string} yamlContent
- * @returns {Array<{question: string, answer: string, image?: string, options?: string[], hint?: string}>}
+ * @returns {Array<{question: string, answer: string, image?: string, options?: string[], hint?: string, explanation?: string}>}
  */
 export function parseQuestions(yamlContent) {
   const data = jsyaml.load(yamlContent);
@@ -44,6 +44,10 @@ export function parseQuestions(yamlContent) {
 
     if (item.hint) {
       entry.hint = String(item.hint);
+    }
+
+    if (item.explanation) {
+      entry.explanation = String(item.explanation);
     }
 
     return entry;
@@ -236,7 +240,7 @@ export class TriviaEngine {
    * Safe to call multiple times; each call re-shuffles both questions and options.
    *
    * @param {number} [limit] - Max questions to return. Defaults to all.
-   * @returns {Array<{question: string, answer: string, options: string[], hint?: string}>}
+   * @returns {Array<{question: string, answer: string, options: string[], hint?: string, explanation?: string}>}
    */
   getPreparedQuestions(limit) {
     const shuffled = shuffleArray(this.questions);

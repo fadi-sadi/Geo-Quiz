@@ -52,7 +52,7 @@ function resolveImagePaths(questions, basePath) {
 
 /** @type {TriviaEngine} */
 let engine;
-/** @type {Array<{question: string, answer: string, image?: string, options: string[], hint?: string}>} */
+/** @type {Array<{question: string, answer: string, image?: string, options: string[], hint?: string, explanation?: string}>} */
 let preparedQuestions = [];
 let currentIndex = 0;
 let score = 0;
@@ -312,6 +312,10 @@ function renderQuestion() {
   selectedOptionIndex = 0;
   updateOptionHighlight();
 
+  const explanationEl = document.getElementById('explanation-text');
+  explanationEl.textContent = '';
+  explanationEl.classList.add('hidden');
+
   document.getElementById('next-btn').classList.add('hidden');
 }
 
@@ -335,6 +339,13 @@ function handleAnswer(question, selected) {
     });
 
   document.getElementById('score-text').textContent = `Score: ${score}`;
+
+  if (question.explanation) {
+    const explanationEl = document.getElementById('explanation-text');
+    explanationEl.textContent = question.explanation;
+    explanationEl.classList.remove('hidden');
+  }
+
   document.getElementById('next-btn').classList.remove('hidden');
 }
 

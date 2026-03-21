@@ -13,6 +13,7 @@ const QUESTIONS_YAML = `
 - question: "What is the capital of France?"
   answer: "Paris"
   hint: "City of Light"
+  explanation: "Paris has been the capital of France since the 10th century."
 - question: "What is 2 + 2?"
   answer: "4"
   options:
@@ -47,6 +48,7 @@ describe('parseQuestions', () => {
       question: 'What is the capital of France?',
       answer: 'Paris',
       hint: 'City of Light',
+      explanation: 'Paris has been the capital of France since the 10th century.',
     });
   });
 
@@ -112,6 +114,16 @@ describe('parseQuestions', () => {
   it('throws when image is an empty string', () => {
     const yaml = '- question: "Q"\n  answer: "A"\n  image: ""';
     expect(() => parseQuestions(yaml)).toThrow(/image/i);
+  });
+
+  it('parses a question with an explanation field', () => {
+    const [first] = parseQuestions(QUESTIONS_YAML);
+    expect(first.explanation).toBe('Paris has been the capital of France since the 10th century.');
+  });
+
+  it('omits explanation key when not defined', () => {
+    const questions = parseQuestions(QUESTIONS_YAML);
+    expect(questions[2]).not.toHaveProperty('explanation');
   });
 });
 

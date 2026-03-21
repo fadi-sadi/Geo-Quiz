@@ -27,6 +27,7 @@ and handles everything else.
 - **Auto-generated options** — If a question doesn't specify choices, they're randomly
   sampled from the answer pool
 - **Hints** — Optional hints per question with a show/hide toggle
+- **Explanations** — Optional explanation shown after answering, clarifying why the correct answer is right
 - **Randomized** — Both question order and answer options are shuffled on every play
 - **Customizable** — Configure the game name and number of options via metadata files
 - **Multiple quizzes** — Host several quizzes by pointing to different YAML files via
@@ -140,6 +141,7 @@ A YAML list where each item has:
 | `answer`   | string   | Yes      | The correct answer (must appear in `options` if set) |
 | `options`  | string[] | No       | Explicit answer choices; auto-generated if omitted   |
 | `hint`     | string   | No       | A hint shown via a toggle button                     |
+| `explanation` | string | No       | Shown after answering; explains why the correct answer is right |
 
 Example:
 
@@ -147,6 +149,7 @@ Example:
 - question: What is the capital of France?
   answer: Paris
   hint: Known as the City of Light
+  explanation: Paris has been the capital of France since the 10th century.
 
 - question: What is 2 + 2?
   answer: '4'
