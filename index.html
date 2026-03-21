@@ -16,6 +16,14 @@
       <div id="start-screen" class="screen hidden" tabindex="-1">
         <h1 id="game-title"></h1>
         <p id="question-count"></p>
+        <div class="question-limit-control">
+          <label for="question-limit">Questions to play:</label>
+          <div class="stepper">
+            <button type="button" id="limit-dec" class="stepper-btn" aria-label="Decrease">−</button>
+            <input type="number" id="question-limit" min="1" value="1" />
+            <button type="button" id="limit-inc" class="stepper-btn" aria-label="Increase">+</button>
+          </div>
+        </div>
         <button id="start-btn" class="btn btn-primary">Start Quiz</button>
       </div>
 

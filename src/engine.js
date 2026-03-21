@@ -125,14 +125,22 @@ export class TriviaEngine {
     this.allAnswers = [...new Set(questions.map((q) => q.answer))];
   }
 
+  /** Total number of questions in the bank. */
+  get totalQuestions() {
+    return this.questions.length;
+  }
+
   /**
-   * Returns every question with its `options` array populated, in random order.
+   * Returns questions with their `options` array populated, in random order.
    * Safe to call multiple times; each call re-shuffles both questions and options.
    *
+   * @param {number} [limit] - Max questions to return. Defaults to all.
    * @returns {Array<{question: string, answer: string, options: string[], hint?: string}>}
    */
-  getPreparedQuestions() {
-    return shuffleArray(this.questions).map((q) => ({
+  getPreparedQuestions(limit) {
+    const shuffled = shuffleArray(this.questions);
+    const selected = limit != null ? shuffled.slice(0, limit) : shuffled;
+    return selected.map((q) => ({
       ...q,
       options: buildQuestionOptions(q, this.allAnswers, this.metadata.num_options),
     }));

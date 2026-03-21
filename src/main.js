@@ -62,7 +62,11 @@ async function loadGame() {
     document.title = metadata.name;
     document.getElementById('game-title').textContent = metadata.name;
     document.getElementById('question-count').textContent =
-      `${questions.length} question${questions.length !== 1 ? 's' : ''}`;
+      `${questions.length} question${questions.length !== 1 ? 's' : ''} available`;
+
+    const limitInput = document.getElementById('question-limit');
+    limitInput.max = questions.length;
+    limitInput.value = questions.length;
 
     showScreen('start');
   } catch (err) {
@@ -84,7 +88,11 @@ async function fetchText(url) {
 // ── Quiz flow ────────────────────────────────────────────────────────────────
 
 function startQuiz() {
-  preparedQuestions = engine.getPreparedQuestions();
+  const limitInput = document.getElementById('question-limit');
+  const limit = Math.max(1, Math.min(engine.totalQuestions, parseInt(limitInput.value, 10) || engine.totalQuestions));
+  limitInput.value = limit;
+
+  preparedQuestions = engine.getPreparedQuestions(limit);
   currentIndex = 0;
   score = 0;
   showScreen('quiz');
@@ -187,5 +195,21 @@ function showResult() {
 document.getElementById('start-btn').addEventListener('click', startQuiz);
 document.getElementById('next-btn').addEventListener('click', nextQuestion);
 document.getElementById('restart-btn').addEventListener('click', startQuiz);
+
+const limitInput = document.getElementById('question-limit');
+document.getElementById('limit-dec').addEventListener('click', () => {
+  const cur = parseInt(limitInput.value, 10) || 1;
+  limitInput.value = Math.max(1, cur - 1);
+});
+document.getElementById('limit-inc').addEventListener('click', () => {
+  const cur = parseInt(limitInput.value, 10) || 1;
+  limitInput.value = Math.min(parseInt(limitInput.max, 10), cur + 1);
+});
+limitInput.addEventListener('change', () => {
+  const max = parseInt(limitInput.max, 10);
+  const val = parseInt(limitInput.value, 10);
+  if (isNaN(val) || val < 1) limitInput.value = 1;
+  else if (val > max) limitInput.value = max;
+});
 
 loadGame();
