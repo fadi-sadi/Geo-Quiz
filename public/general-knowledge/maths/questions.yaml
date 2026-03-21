@@ -9,6 +9,7 @@
 - question: What is the chemical symbol for gold?
   answer: Au
   hint: From the Latin word "aurum"
+  explanation: Au comes from the Latin word "aurum", meaning "shining dawn".
   options:
     - Au
     - Ag
@@ -18,6 +19,7 @@
 - question: What is the largest planet in our solar system?
   answer: Jupiter
   hint: It has a famous Great Red Spot
+  explanation: Jupiter has a mass more than twice that of all other planets combined.
   options:
     - Jupiter
     - Saturn
