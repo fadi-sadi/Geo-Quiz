@@ -57,6 +57,9 @@ let preparedQuestions = [];
 let currentIndex = 0;
 let score = 0;
 let answered = false;
+let selectedOptionIndex = -1;
+let timerStart = 0;
+let timerInterval = null;
 
 /** @type {Array<{name: string, questions: string, metadata?: string}> | null} */
 let categories = null;
@@ -154,6 +157,32 @@ function showStartScreen() {
   showScreen('start');
 }
 
+// ── Timer ─────────────────────────────────────────────────────────────────────
+
+function formatElapsed(ms) {
+  const totalSeconds = Math.floor(ms / 1000);
+  const minutes = Math.floor(totalSeconds / 60);
+  const seconds = totalSeconds % 60;
+  return `${minutes}:${String(seconds).padStart(2, '0')}`;
+}
+
+function startTimer() {
+  stopTimer();
+  timerStart = Date.now();
+  const timerEl = document.getElementById('timer-text');
+  timerEl.textContent = '0:00';
+  timerInterval = setInterval(() => {
+    timerEl.textContent = formatElapsed(Date.now() - timerStart);
+  }, 1000);
+}
+
+function stopTimer() {
+  if (timerInterval) {
+    clearInterval(timerInterval);
+    timerInterval = null;
+  }
+}
+
 // ── Quiz flow ────────────────────────────────────────────────────────────────
 
 function startQuiz() {
@@ -168,6 +197,7 @@ function startQuiz() {
   currentIndex = 0;
   score = 0;
   showScreen('quiz');
+  startTimer();
   renderQuestion();
 }
 
@@ -221,6 +251,9 @@ function renderQuestion() {
     grid.appendChild(btn);
   });
 
+  selectedOptionIndex = 0;
+  updateOptionHighlight();
+
   document.getElementById('next-btn').classList.add('hidden');
 }
 
@@ -256,11 +289,22 @@ function nextQuestion() {
   }
 }
 
+function updateOptionHighlight() {
+  const btns = document.getElementById('options-grid').querySelectorAll('.option-btn');
+  btns.forEach((btn, i) => {
+    btn.classList.toggle('kb-focus', i === selectedOptionIndex);
+  });
+}
+
 function showResult() {
+  stopTimer();
+  const elapsed = Date.now() - timerStart;
+
   const total = preparedQuestions.length;
   const pct = Math.round((score / total) * 100);
 
   document.getElementById('final-score').textContent = `${score} / ${total}`;
+  document.getElementById('final-time').textContent = `Time: ${formatElapsed(elapsed)}`;
 
   let msg;
   if (pct === 100) msg = 'Perfect score! Outstanding!';
@@ -302,6 +346,47 @@ limitInput.addEventListener('change', () => {
   const val = parseInt(limitInput.value, 10);
   if (isNaN(val) || val < 1) limitInput.value = 1;
   else if (val > max) limitInput.value = max;
+});
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === ' ' && !screens.start.classList.contains('hidden')) {
+    e.preventDefault();
+    document.getElementById('start-btn').click();
+    return;
+  }
+
+  if (e.key === ' ' && !screens.result.classList.contains('hidden')) {
+    e.preventDefault();
+    document.getElementById('restart-btn').click();
+    return;
+  }
+
+  if (screens.quiz.classList.contains('hidden')) return;
+
+  const optionBtns = document.getElementById('options-grid').querySelectorAll('.option-btn');
+  const count = optionBtns.length;
+  if (!count) return;
+
+  if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+    e.preventDefault();
+    if (answered) return;
+    if (e.key === 'ArrowDown') {
+      selectedOptionIndex = (selectedOptionIndex + 1) % count;
+    } else {
+      selectedOptionIndex = (selectedOptionIndex - 1 + count) % count;
+    }
+    updateOptionHighlight();
+  }
+
+  if (e.key === ' ') {
+    e.preventDefault();
+    const nextBtn = document.getElementById('next-btn');
+    if (answered && !nextBtn.classList.contains('hidden')) {
+      nextBtn.click();
+    } else if (!answered && selectedOptionIndex >= 0 && selectedOptionIndex < count) {
+      optionBtns[selectedOptionIndex].click();
+    }
+  }
 });
 
 loadGame();
